@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LucyKing Porfolio for FAC</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Syne+Mono&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/lucylogo.png" alt="FAC Application">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Why I Want To Do This</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Inspiration</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Lucy King</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">a super keen applicant 🤗</p>
+            <img src="img/lucymainimage.jpg" alt="a keen journocoder" class="intro__img">
+        </section>
+        
+        
+        <!-- My Reasons for doing this -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Why I Want To Do This</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>To Investigate</h3>
+                    <p>From interpreting Satellite Imagery to APIs and web scraping, learning to code will enable me to do much more complex investigations</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>To Make Interactives</h3>
+                    <p>Learning Javascript would mean I have the tools to present and publish my work</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>For Data</h3>
+                    <p>Nowadays a lot of the work of a journalist is to sort through huge amounts of data or information, and knowing how to code gives me the best skillset to do that efficiently.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">Here's What Has Inspired Me</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">I'm currently a TV Producer / Journalist</p>
+           
+           <div class="about-me__body">
+               <p>I began my career as a TV producer, working mostly on documentaries. I then moved into video-journalism and for the last 3 years have worked for the New York Times. I left the NYT in December so I could dedicate 6 months to learning to code.</p>
+               <p>Why? Well, over the last few years I've come up against so many (digital) brick walls in my reporting.</p>
+               <p>Maybe I was trying to investigate a government agency and saw they had an API but I didn't know what to do with it. Or I wanted to create an interactive to help the public understand a complicated piece of legislation. Or I would hear colleagues talking about scraping or using React.js or Svelte... </p>
+               <p>There's been so many of these moments over the last few years. I'm so enthusiastic about learning this magical language so I can be a much more useful investigative reporter.</p>
+               <p>So, here's hoping you're help me become a Journocoder!</p>
+           </div>
+           
+           <img src="img/lucyimage2.jpg" alt="Lucy's head exploding with Javascript" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My Dream Portfolio</h2>
+            <p class="section__subtitle section__subtitle--work">Here's some examples of journalism that has inspired me to learn to code</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="https://www.nytimes.com/interactive/2022/04/30/us/tucker-carlson-tonight.html" class="portfolio__item">
+                    <img src="img/1Portfolio-Tucker.jpg" alt="Stills from Tucker Carlson Tonight" class="portfolio__img">
+                </a>
+                
+                <a href="https://pudding.cool/2023/10/genre/" class="portfolio__item">
+                    <img src="img/2PortfolioGenres.jpg" alt="Music genres in a wordheap" class="portfolio__img">
+                </a>
+                
+                <a href="https://pudding.cool/2023/07/songwriters/" class="portfolio__item">
+                    <img src="img/3PortfolioSongwriters.jpg" alt="Names of songs written by female songwriters" class="portfolio__img">
+                </a>
+                
+                <a href="https://www.nytimes.com/interactive/2023/12/14/opinion/my-life-with-long-covid.html" class="portfolio__item">
+                    <img src="img/4PortfolioCovid.jpg" alt="Noting symptoms from Long Covid" class="portfolio__img">
+                </a>
+                
+                <a href="https://ig.ft.com/china-mosques/" class="portfolio__item">
+                    <img src="img/5PortfolioMosque.jpg" alt="Satellite Image of Mosque" class="portfolio__img">
+                </a>
+                
+                <a href="https://www.deniselu.com/sandbox/pavement-1933-2023/" class="portfolio__item">
+                    <img src="img/6PortfolioPavement.jpg" alt="Pavement Album Cover" class="portfolio__img">
+                </a>
+                
+                <a href="https://multimedia.scmp.com/infographics/news/world/article/3240168/israel-gaza-war/index.html" class="portfolio__item">
+                    <img src="img/7PortfolioSCMP.jpg" alt="Illustration of Gaza Scene" class="portfolio__img">
+                </a>
+                
+                <a href="https://www.aljazeera.com/news/longform/2023/11/1/know-their-names-palestinians-killed-in-israeli-attacks-on-gaza" class="portfolio__item">
+                    <img src="img/8PortfolioGaza.jpg" alt="Gazans Killed" class="portfolio__img">
+                </a>
+                
+                <a href="https://www.washingtonpost.com/climate-environment/interactive/2023/greenland-ice-sheet-drilling-bedrock-sea-rise/?tid=usw_passupdatepg?account_created=false" class="portfolio__item">
+                    <img src="img/9PortfolioIce.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <a href="https://www.reuters.com/graphics/CLIMATE-CHANGE/URBAN-HEAT/zgpormdkevd/" class="portfolio__item">
+                    <img src="img/10PortfolioLava.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="https://tradingthefragile.com/" class="portfolio__item">
+                    <img src="img/11PortfolioAnimals.jpg" alt="" class="portfolio__img">
+                </a>
+
+                <a href="https://atlasofintangibles.com/witness-marks/journeys" class="portfolio__item">
+                    <img src="img/12PortfolioAtlas.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:hello@thekinglucy.com" class="footer__link">hello@thekinglucy.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/lucy-king-387986105/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/King__Lucy">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/the-king-lucy">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
